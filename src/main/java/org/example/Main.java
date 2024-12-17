@@ -33,7 +33,7 @@ public class Main {
                 System.out.println(operande1 / operande2 + " (résultat tronqué à zéro décimale)");
                 break;
             case 5:
-                System.out.println((int)Math.pow(operande1, operande2) + " (résultat tronqué à zéro décimale)");
+                System.out.println(calculateur.calculerExponentiation(operande1, operande2) + " (résultat tronqué à zéro décimale)");
                 break;
             default:
                 System.out.println("Choix invalide. Aucune opération effectuée.");
