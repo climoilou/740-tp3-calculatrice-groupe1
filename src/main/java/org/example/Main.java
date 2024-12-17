@@ -7,13 +7,15 @@ public class Main {
 
         System.out.println("Bienvenue aux commandes de la calculatrice.");
 
+        Calculateur calculateur = new Calculateur();
+
         System.out.println("Entrez un premier opérande (nombre entier).");
         int operande1 = obtenirUnNombreEntierValide();
 
         System.out.println("Entrez un deuxième opérande (nombre entier).");
         int operande2 = obtenirUnNombreEntierValide();
 
-        System.out.println("Voici les opérations disponibles: 1 (somme) 2 (soustraction) 3 (multiplication) 4 (division)");
+        System.out.println("Voici les opérations disponibles: 1 (somme) 2 (soustraction) 3 (multiplication) 4 (division) 5 (exponentiation)");
         int numeroFonction = obtenirUnNombreEntierValide();
 
         System.out.println("Voici le résultat:");
